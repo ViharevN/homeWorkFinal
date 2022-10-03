@@ -228,6 +228,19 @@ public class Main {
         } else if (ageHuman >= 24) {
             System.out.println("человеку пора ходить на работу");
         }
+        //домашнее задание 3. Условные операторы 1
+        //задание 1
+
+        int ageHuman = 18;
+        if (ageHuman >= 2 && ageHuman <= 6) {
+            System.out.println("нужно ходить в детский сад");
+        } else if (ageHuman >= 7 && ageHuman <= 18) {
+            System.out.println("нужно ходить в школу");
+        } else if (ageHuman > 18 && ageHuman < 24) {
+            System.out.println("место человека в университете");
+        } else if (ageHuman >= 24) {
+            System.out.println("человеку пора ходить на работу");
+        }
 
 
 
