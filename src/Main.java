@@ -264,6 +264,18 @@ public class Main {
         } else if (free > one && free >two) {
             System.out.println(free);
         }
+        //Условные операторы часть 2. Домашнее задание
+        //задание 1
+
+        int clientOS;
+        clientOS = 1;
+        if (clientOS == 0) {
+            System.out.println("Установите версию приложения для iOS по ссылке");
+        } else if (clientOS == 1) {
+            System.out.println("Установите версию приложения для Android по ссылке");
+        }
+
+
 
 
 
