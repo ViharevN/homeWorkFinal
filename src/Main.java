@@ -274,14 +274,23 @@ public class Main {
         } else if (clientOS == 1) {
             System.out.println("Установите версию приложения для Android по ссылке");
         }
+        //задание 2
 
+        int clientOS1 = 1;
+        int phoneYear = 2015;
 
+        if (clientOS1 == 0 && phoneYear >= 2015) {
+            System.out.println("Установите версию приложения для iOS по ссылке");
 
+        } else if (clientOS1 == 0 && phoneYear < 2015) {
+            System.out.println("Установите облегченную версию приложения для iOS по ссылке");
+        }
+        else if (clientOS1 == 1 && phoneYear >= 2015) {
+            System.out.println("Установите версию приложения для Android по ссылке");
 
-
-
-
-
+        } else if (clientOS1 == 1 && phoneYear < 2015) {
+            System.out.println("Установите облегченную версию приложения для Android по ссылке");
+        }
 
 
 
