@@ -208,12 +208,25 @@ public class Main {
         }
         //домашнее задание 2. Условные операторы 1
         //задание 1
+
         int ageChildren = 18;
         if (ageChildren >= 18) {
             System.out.println("поздравляем с совершеннолетием");
         }
         else {
             System.out.println("совершеннолетие не наступило и нужно подождать");
+        }
+        //задание 2
+
+        int ageHuman = 18;
+        if (ageHuman >= 2 && ageHuman <= 6) {
+            System.out.println("нужно ходить в детский сад");
+        } else if (ageHuman >= 7 && ageHuman <= 18) {
+            System.out.println("нужно ходить в школу");
+        } else if (ageHuman > 18 && ageHuman < 24) {
+            System.out.println("место человека в университете");
+        } else if (ageHuman >= 24) {
+            System.out.println("человеку пора ходить на работу");
         }
 
 
