@@ -206,6 +206,16 @@ public class Main {
         } else if (humansPlacesStand <= placesStand) {
             System.out.println("стоячие места еще есть");
         }
+        //домашнее задание 2. Условные операторы 1
+        //задание 1
+        int ageChildren = 18;
+        if (ageChildren >= 18) {
+            System.out.println("поздравляем с совершеннолетием");
+        }
+        else {
+            System.out.println("совершеннолетие не наступило и нужно подождать");
+        }
+
 
 
 
