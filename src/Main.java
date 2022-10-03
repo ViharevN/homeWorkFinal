@@ -291,8 +291,15 @@ public class Main {
         } else if (clientOS1 == 1 && phoneYear < 2015) {
             System.out.println("Установите облегченную версию приложения для Android по ссылке");
         }
+        //задание 3
 
+        int currentYear = 2022;
 
+        if ((currentYear%400==0)||(currentYear%400!=0 && currentYear%100!=0 && currentYear%4==0)) {
+            System.out.println("год високосный");
+        } else{
+            System.out.println("год не високосный");
+        }
 
 
     }
