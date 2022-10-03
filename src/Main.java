@@ -300,6 +300,15 @@ public class Main {
         } else{
             System.out.println("год не високосный");
         }
+        //задание 4
+
+        int deliveryDistance = 95;
+        int deliveryDays;
+
+        deliveryDays = (deliveryDistance/40)+1;
+        System.out.println("потребуется дней: " + deliveryDays);
+
+
 
 
     }
