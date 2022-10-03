@@ -168,7 +168,16 @@ public class Main {
 
         double plusKristinaCash = kristinaCash+(kristinaCash*0.1);
         System.out.println("Кристина теперь получает " +(int) (plusKristinaCash)+ " рублей. " + "Годовой доход вырос на " + (((int)(plusKristinaCash*12))-(int)((kristinaCash*12))) + " рублей");
+        //условные операторы часть 1
+        //задание 1
+        int age = 18;
 
+        if (age >= 18) {
+            System.out.println("поздравляем с совершеннолетием");
+        }
+        else {
+            System.out.println("совершеннолетие еще не наступило и нужно еще немного подождать");
+        }
 
 
 
