@@ -48,6 +48,12 @@ public class Main {
         var sportsmanTwo = 82.7;
         var weightSportsmans = sportsmanTwo + sportsmanOne;
         System.out.println(weightSportsmans);
+        //задание 7
+
+        var differenceWeight = sportsmanTwo%sportsmanOne;//остаток от деления
+        System.out.println(differenceWeight);
+        var diffWeight = sportsmanTwo - sportsmanOne;
+        System.out.println(diffWeight);
 
     }
 }
