@@ -295,7 +295,7 @@ public class Main {
 
         int currentYear = 2022;
 
-        if ((currentYear%400==0)||(currentYear%400!=0 && currentYear%100!=0 && currentYear%4==0)) {
+        if (currentYear%400!=0 && currentYear%100!=0 && currentYear%4==0) {
             System.out.println("год високосный");
         } else{
             System.out.println("год не високосный");
