@@ -231,14 +231,14 @@ public class Main {
         //домашнее задание 3. Условные операторы 1
         //задание 1
 
-        int ageHuman = 18;
-        if (ageHuman >= 2 && ageHuman <= 6) {
+        int ageHumans = 18;
+        if (ageHumans >= 2 && ageHumans <= 6) {
             System.out.println("нужно ходить в детский сад");
-        } else if (ageHuman >= 7 && ageHuman <= 18) {
+        } else if (ageHumans >= 7 && ageHumans <= 18) {
             System.out.println("нужно ходить в школу");
-        } else if (ageHuman > 18 && ageHuman < 24) {
+        } else if (ageHumans > 18 && ageHumans < 24) {
             System.out.println("место человека в университете");
-        } else if (ageHuman >= 24) {
+        } else if (ageHumans >= 24) {
             System.out.println("человеку пора ходить на работу");
         }
         //задание 2
@@ -250,6 +250,19 @@ public class Main {
             System.out.println("ребенок может кататься на аттракционе в сопровождении взрослого. Если взрослого нет, то кататься нельзя");
         } else if (ageChild >= 14) {
             System.out.println("ребенок может кататься без сопровождения взрослого");
+        }
+        //задание 3
+
+        int one = 111112;
+        int two = 12;
+        int free = 3443;
+
+        if (one > two && one > free) {
+            System.out.println(one);
+        } else if (two > one && two >free) {
+            System.out.println(two);
+        } else if (free > one && free >two) {
+            System.out.println(free);
         }
 
 
