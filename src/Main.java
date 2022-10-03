@@ -42,6 +42,12 @@ public class Main {
         System.out.println(frog);
         frog = frog + 4;
         System.out.println(frog);
+        //задание 6
+
+        var sportsmanOne = 78.2;
+        var sportsmanTwo = 82.7;
+        var weightSportsmans = sportsmanTwo + sportsmanOne;
+        System.out.println(weightSportsmans);
 
     }
 }
