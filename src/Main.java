@@ -54,6 +54,17 @@ public class Main {
         System.out.println(differenceWeight);
         var diffWeight = sportsmanTwo - sportsmanOne;
         System.out.println(diffWeight);
+        //задание 8
+
+        var hours = 640;
+        var hoursMans = 8;
+
+        var allMans = hours/hoursMans;
+        System.out.println(allMans);
+
+        allMans = allMans + 94;
+        var allHours = allMans * hoursMans;
+        System.out.println("Если в компании работает " + allMans + " человек, то всего " + allHours + " часов работы может быть поделено между сотрудниками");
 
     }
 }
