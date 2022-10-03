@@ -241,6 +241,16 @@ public class Main {
         } else if (ageHuman >= 24) {
             System.out.println("человеку пора ходить на работу");
         }
+        //задание 2
+
+        int ageChild = 7;
+        if (ageChild < 5) {
+            System.out.println("ребенок не может кататься на аттракционе");
+        } else if (ageChild >= 5 && ageChild < 14) {
+            System.out.println("ребенок может кататься на аттракционе в сопровождении взрослого. Если взрослого нет, то кататься нельзя");
+        } else if (ageChild >= 14) {
+            System.out.println("ребенок может кататься без сопровождения взрослого");
+        }
 
 
 
